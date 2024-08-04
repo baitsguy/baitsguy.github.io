@@ -1,0 +1,51 @@
+body {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.container {
+    width: 60%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h1 {
+    font-size: 3rem;
+}
+
+.entry {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.entry h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.entry a {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.entry a:hover {
+    border-bottom: 2px solid transparent;
+    color: black;
+    text-decoration: underline;
+}
+
+.entry .header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.entry .passage {
+    margin-top: 1rem;
+    line-height: 1.5;
+}
