@@ -2,6 +2,7 @@ body {
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+
 .container {
     width: 60%;
     padding-left: 1.5rem;
@@ -10,16 +11,34 @@ body {
     padding-bottom: 2.5rem;
     margin-left: auto;
     margin-right: auto;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .container h1 {
     font-size: 3rem;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .entry {
     padding-bottom: 1rem;
     border-bottom: 1px solid;
     font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.menu {
+    column-count: 2;
+    padding: 1rem;
+}
+
+.menu-section {
+    column-span: 2;
+    break-inside: avoid;
+}
+
+.menu-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .entry h4 {
