@@ -30,6 +30,12 @@ body {
     padding: 1rem;
 }
 
+@media (max-width: 900px) {
+    .menu {
+        column-count: 1;
+    }
+}
+
 .menu-section {
     column-span: 2;
     break-inside: avoid;
