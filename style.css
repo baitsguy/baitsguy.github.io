@@ -74,3 +74,50 @@ body {
     margin-top: 1rem;
     line-height: 1.5;
 }
+
+.categories {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.categories a {
+    padding: 0.75rem 0;
+    color: #555;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.categories a[aria-current="page"] {
+    color: #111;
+    border-bottom-color: currentColor;
+    font-weight: 600;
+}
+
+.categories a:hover {
+    color: #111;
+    text-decoration: underline;
+}
+
+.categories a:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1.5rem 1rem;
+    }
+}
+
+.categories .site-title {
+    margin-right: auto;
+    color: #111;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
