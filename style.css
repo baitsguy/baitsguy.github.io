@@ -121,35 +121,3 @@ body {
     font-size: 1.25rem;
     font-weight: 700;
 }
-
-.recipe-ingredients {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 1.5rem;
-}
-
-.recipe-ingredients th,
-.recipe-ingredients td {
-    padding: 0.5rem 0.4rem;
-    border-bottom: 1px solid #eee;
-    text-align: left;
-}
-
-.recipe-ingredients tbody th {
-    font-weight: normal;
-}
-
-.recipe-ingredients td {
-    white-space: nowrap;
-    font-variant-numeric: tabular-nums;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    overflow: hidden;
-    clip-path: inset(50%);
-    white-space: nowrap;
-}
